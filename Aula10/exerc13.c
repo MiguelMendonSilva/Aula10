@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int maior(int x, int y){
+int maenor(int x, int y){
 
     if (x > y){
         return y;
@@ -16,7 +16,7 @@ int main(){
     int a = 10;
     int b = 15;
 
-    int resultado = maior(a, b);
+    int resultado = menor(a, b);
     printf ("O menor número é: %d", resultado);
 
 
